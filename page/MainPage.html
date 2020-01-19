@@ -1,0 +1,110 @@
+<!-- 
+    photo 没有回放动画
+    navbar 的hover 动画
+    翻页动画 
+    document.getById == null
+    background怎么弄的
+    navbar置顶 居中
+    top : 0
+    space between 没用 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <script type="text/javascript" src="../js/jump.js"></script>
+    <title>Adam Yue</title>
+</head>
+<body>
+    <div class="nav__bar">
+        <div class="nav__bar-container">
+            <div class="nav__bar-left">
+                Adam <span class="green">Yue</span>
+            </div>
+            <div class="nav__bar-right">
+                <div class="nav__bar-right-items">
+                    <button id="home">Home</button>
+                    <button id="resume">Resume</button>
+                    <button id="services">Services</button>
+                    <button id="blog">Blog</button>
+                    <button id="contact">Contact</button>
+                </div> 
+            </div>          
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card__top">
+            <div class="card__top-left">
+                <div class="photo">
+                    <img src="../img/photo.png" alt="This is photo" id = "photo">
+                </div>
+            </div>
+
+            <div class="card__top-right">
+                <h1 class="card__top-right-name">Adam Yue</h1>
+                <p class="card__top-right-work">Web Designer</p>
+                <div class="card__top-right-socallinks">
+                    <a href="#" class="icon-container">
+                        <img src="../img/twitter.svg" class="icon"alt="">
+                    </a>
+                    <a href="#" class = "icon-container">
+                        <img src="../img/fb.svg" class="icon"alt="">
+                    </a>
+                    <a href="#" class="icon-container">
+                        <img src="../img/ins.svg" class="icon" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </div>    
+        <div class="card__button">
+            <div class="card__button-left">
+                <div class="card__button-left-title">
+                   <h3>About <span class="green">Me</span></h3>
+
+                </div>
+                <div class="card__button-left-content">
+                    <p>Hello! I’m John Doe. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. Aenean fermentum ullamcorper sem,
+                        at placerat dolor volutpat ac. Duis nulla enim, 
+                        condimentum nec ultricies.</p>
+                </div>
+            </div>
+            <div class="card__button-right">
+
+                <ul class="info-list">
+                    <li>
+                        <span class="title">Age</span>
+                        <span class="value">24</span>
+                    </li>
+                    <li>
+                        <span class="title">Residence</span>
+                        <span class="value">Austraia</span>
+                    </li>
+                    <li>
+                        <span class="title">Address</span>
+                        <span class="value">Some address</span>
+                    </li>
+                    <li>
+                        <span class="title">e-mail</span>
+                        <span class="green"class="value" >qq2841864141@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="title">Phone</span>
+                        <span class="value">012345678</span>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>© 2019 all rights reserved. Made by <span class="green"> Adam</span></p>
+    </div> 
+</body>
+</html>

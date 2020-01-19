@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #f5f5f5;
+    background-image: url(../img/main_bg.png);
+    background-size: cover;
+}
+.green{
+    color: #64C685;
+}
+.nav__bar{
+    width: 100%;
+    padding: 30px 0px;
+    position: fixed;
+    top:0;
+    background-color:  #f5f5f5;
+
+}
+.nav__bar-container{
+    width: 1032px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__bar-left{
+
+    justify-content: flex-start;
+    font-size: 18px;
+    width: 90px;
+    margin: 0px 0px; 
+}
+
+.nav__bar-right{
+    width: 600px;
+}
+.nav__bar-right-items{
+    display: flex;
+    justify-content: flex-end;
+}
+button{
+    width: 50px;
+    padding: 0 8px;
+    margin: 0px 12px;
+    outline: 0;
+    border :0;
+    background: transparent;
+    font-size: 16px;
+}
+.card{
+    margin: 100px auto;
+    height: 564px;
+    width: 1032px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 2px 10px 0px;
+}
+.card__top{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+    height: 50%;
+    background-color:#2DC26B;
+    display: flex;
+
+}
+.photo img{
+    margin: 40px;
+    height: 270px;
+    width : 270px;
+    border: 2px solid white;
+}
+
+#photo:hover{
+    margin-top: 30px;
+    transition-duration: 0.5s;
+}
+
+.card__top-right{
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+}
+.card__top-right-name{
+    color: white;
+    font-size: 48px;
+    margin: 5px auto;
+}
+.card__top-right-work{
+    font-size: 18px;
+    color: white;
+    margin: 5px auto;
+}
+.card__top-right-socallinks{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.icon-container{
+    height: 36px;
+    width: 36px;
+    margin:5px 5px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin: 8px;
+}
+.card__button{
+    margin-top: 60px;
+    display: flex;
+}
+.card__button-left{
+    width: 480px;
+    margin-left: 40px;   
+}
+.card__button-right{
+    margin-left: 40px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 6px 0px;
+}
+.title{
+    display: inline-block;
+    width: 120px;
+}
+.value{
+    color: gray;
+}
+.footer{
+    margin: 15px;
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+}
